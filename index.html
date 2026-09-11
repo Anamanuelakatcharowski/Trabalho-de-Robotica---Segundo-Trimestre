@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Robótica - 2º B</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte futurista Orbitron -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🤖 Portfólio de Robótica - 2º B</div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#equipe">Equipe</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>// SOBRE O PROJETO</h2>
+                <p>Bem-vindo ao nosso laboratório cibernético. Aqui, transformamos linhas de código e componentes eletrônicos em soluções reais. Utilizando a plataforma <strong>Arduino</strong> para programação física e o simulador <strong>Tinkercad</strong> para prototipagem de circuitos, desenvolvemos autonomia, lógica de programação e engenharia robótica diretamente no ambiente escolar.</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <div class="container">
+                <h2>// GALERIA DE PROJETOS</h2>
+                <div class="grid-projetos">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="imagem1.jpg" alt="Carrinho mecânico" class="img-trigger">
+                        </div>
+                        <div class="card-content">
+                            <h3>Carrinho mecânico</h3>
+                            <p>Construção de estrutura física motorizada controlada por comandos lógicos de tração.</p>
+                            <button class="btn-ver-projeto">Ver Projeto</button>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="imagem2.jpg" alt="Semáforo Inteligente" class="img-trigger">
+                        </div>
+                        <div class="card-content">
+                            <h3>Semáforo Inteligente</h3>
+                            <p>Controle de fluxo de tráfego temporizado e acionamento manual para pedestres.</p>
+                            <button class="btn-ver-projeto">Ver Projeto</button>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="imagem3.jpg" alt="LED RGB com potenciômetro" class="img-trigger">
+                        </div>
+                        <div class="card-content">
+                            <h3>LED RGB com potenciômetro</h3>
+                            <p>Modulação de cores e espectros de luz através da variação de resistência analógica.</p>
+                            <button class="btn-ver-projeto">Ver Projeto</button>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="imagem4.jpg" alt="Estação IoT" class="img-trigger">
+                        </div>
+                        <div class="card-content">
+                            <h3>Estação IoT</h3>
+                            <p>Monitoramento automatizado de variáveis ambientais com exibição de dados em tempo real.</p>
+                            <button class="btn-ver-projeto">Ver Projeto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Preview">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <footer id="equipe">
+        <div class="container">
+            <p>// DESENVOLVIDO POR:</p>
+            <ul class="integrantes">
+                <li>Ana Manuela Katcharowski</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
